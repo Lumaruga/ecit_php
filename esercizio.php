@@ -1,5 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ese</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <form method="POST" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
         Nome: <input type="text" name="nome">
